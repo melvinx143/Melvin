@@ -1,0 +1,163 @@
+.content_body
+{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.inside_content
+{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+width:400px;
+    background-color:white;
+    margin-left:10%;
+}
+#profilepic
+{
+    display:flex;
+    text-align: center;
+    justify-content: center;
+padding:20px;
+}
+#prev,#next
+{
+padding:20px;
+border:none;
+width:400px;
+cursor:pointer;
+font-size: 22px;
+font-weight: bold;
+}
+
+#textcontent
+{
+font-weight: bold;
+}
+#prev:active,#next:active{
+background-color: black;
+color:white;
+
+}
+
+
+.navbar
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding:40px;
+ 
+}
+.menu_content
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:1.5rem;
+    list-style-type: none;
+    font-size: 19px;
+    font-weight: bold;
+}
+#btn
+{
+    padding:10px;
+    border-radius:22px;
+    border:none;
+    box-shadow: 5px 5px 5px black;
+}
+*
+{
+    padding:0;
+    margin:0;
+    color:black;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover
+{
+text-decoration: underline red;
+text-underline-offset: 1.5rem;
+}
+#videoplay
+{
+z-index:-1;
+position: fixed;
+}
+#part1,#qualification,#aboutme
+{
+display:flex;
+flex-direction: column;
+padding:30px;
+
+margin:20px;
+}
+
+.skills
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+border:1px solid black;
+padding:10px;
+}
+
+#aboutme
+{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+border-radius:22px;
+    box-shadow: 12px 12px 12px grey;
+    width:97%;
+    margin-left:7%;
+    margin:1.5rem;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+*
+{
+    padding:0;
+    margin:0;
+
+    text-shadow: 12px 12px 12px grey;
+}
+#imaging
+{
+    border-radius: 50%;
+    box-shadow: 12px 12px 12px grey;
+    padding:30px;
+    width:270px;
+    height:200px;
+    margin-top:1.5rem;
+    margin:1.5rem;
+}
+#aboutme_content
+{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+padding:20px;
+margin:10px;
+}
+h4,h2,h5{
+    margin:10px;
+}
