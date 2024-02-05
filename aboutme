@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="sampling.css">
+
+</style>
+<body>
+   
+    <!---------------------NAVIGATION BAR--------------------->
+    <nav id="descp">
+        <div class="logo">MELVIN FRANCIS</div>
+        <div id="nav_link">
+        <li><a href="#aboutmesection">About Me</a></li>
+        <li><a href="#qualifications">Qualifications</a></li>
+        <li><a href="#myprojects">Projects</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+    </div>
+    </nav>
+    <!------------------------------------------------------------------->
+    <!---------------------body of the content----------------------------------------------------->
+    <video src="./wow.mp4" type="video/mp4" id="videoplay" muted autoplay loop></video>
+    <div class="content_body">
+
+        <div><img src="1705595724959.jpg" class="imgs"></div>
+        <div class="allinfo">
+        <div class="about_me">
+            <h1>Turning <span style="color:blue;">Vision</span> Into Reality With <span style="color:green">Code</span> And <span style="color:skyblue">Design</span>.</h1>
+            <h3 id="hello" style="margin-top:1.5rem;">Hello,I'm</h3>
+            <h1 id="myname">Melvin Francis</h1>
+            <h4 id="sweetdesc">I have a background in Computer Science from Fleming College. While studying about Software Development,I have successfully developed skills in Frontend Developer and now i'm learning Devops as well to achieve my goal to become a Full Fledged Software Developer.</h4>
+        </div>
+        <div class="info">
+            <button ><a href="Gray and White Simple Clean Resume-4.pdf"  style="text-decoration: none;color:burlywood;">Download CV</a></button>
+           
+        </div>
+        <div class="social_media">
+            
+            <div class="github"><a href="https://github.com/melvinx143"><img src="./icons8-github-50.png"></a></div>
+        </div>
+    </div>
+</div>
+    <!------------------------------------------------------------------------------------------>
+   
+   <H1 id="shortz">QUALIFICATION</H1>
+   <div id="qualify">
+    <div id="qualifications">
+        <div class="title">EDUCATION</div>
+        <img src="./icons8-education-48.png" id="educationlogo" height="90px" width="300px">
+    <div class="btech">Electrical and Electronics Engineering </div>
+    <div class="btech">PGDM Wireless Information Networking </div>
+</div>
+
+
+    <div class="content_bodyy">
+        <h3>SKILLS</h3>
+     <button id="prev">&#11165;</button>
+    <img src="./html5.png" height="100px" width="10px" id="profilepic">
+  <p id="textcontent">HTML</p>
+   <button id="next">&#11167;</button>
+    </div>
+</div>
+</div>
+
+<h1 id="shortz">PROJECTS</h1>
+<div id="myprojects">
+    <h3 style='text-align: center;margin-top:4rem;'>PROJECT 1</h3>
+    <div class="part1">
+        <div class="profilepic"><img src="./quote.PNG" height="400px" width="800px"></div>
+        <div class="description">
+            This is the website which is responsive and developed using HMTL,CSS and JS.This is basically quote generator
+        </div>
+    </div>
+    <button><a href="https://melvinx143.github.io/Quotes/quotes.html" id="btn">Visit</a></button>
+    </div>
+
+
+    <div class="two">
+        <div class="inside1">
+            <div class="profilepix">
+                <h3 style="margin-bottom:1.5rem;">PROJECT 2</h3>
+                <img src="./stop.PNG" height="200px;" width="300px">
+            </div>
+            <div class="titleofproject">
+                <h3>Video Pause</h3>
+            </div>
+            <div class="describe">
+              
+                This is website for video pausing.Here we can pause and play the video and it is mobile responsive.
+            </div>
+            <button><a href="https://melvinx143.github.io/JavaScriptProjects/Videopause.html" id="btn">Visit</a></button>
+        </div>
+        <div class="inside2">
+
+                <div class="profilepix">
+                    <h3 style="margin-bottom:1.5rem;">PROJECT 3</h3>
+                    <img src="./rps.PNG" height="200px;" width="300px">
+                </div>
+                <div class="titleofproject">
+                    <h3>Rock Paper Scissor</h3>
+                </div>
+                <div class="describe">
+                Rock Paper Scissor Game on of the popular Games.This is mobile responsive.
+                </div>
+                <button><a href="https://melvinx143.github.io/JavaScriptProjects/ROCKPAPERSCISSOR.html" id="btn">Visit</a></button>
+
+    </div>
+</div>
+
+<div id="myprojects">
+    <h2>Project 4</h2>
+    <div class="part1">
+        <div class="profilepic"><img src="./gandhi.PNG" height="400px" width="800px"></div>
+        <div class="description">
+            <h2>Tribute</h2>
+          
+        </div>
+        <p>  Tribute to Indian Personalities.There have been many such highly capable indiviuals who have India proud at the International podium.</p>
+    </div>
+    <button><a href="https://melvinx143.github.io/JavaScriptProjects/indiaproject.html" id="btn">Visit</a></button> 
+    </div>
+
+
+
+<h1 id="shortz">Contact Me</h1>
+
+<div id="contactme">
+    <div class="linkedin"><a href="https://www.linkedin.com/in/melvin-francis-9a6b96294/"><img src="./icons8-linkedin-48.png"></a></div>
+    <div class="gmail"><a href="mailto:melvinx143@gmail.comX"><img src="./icons8-gmail-48 (1).png"></a></div>
+    <script src="./portfolio.js"></script>
+</div>
+</div>
+</body>
+</html>
